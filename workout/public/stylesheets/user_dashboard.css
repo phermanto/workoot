@@ -1,0 +1,22 @@
+#calendar {
+    height: 400px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+#user_workouts {
+    display: inline-block;
+    width: 50%;
+}
+
+#workout_today {
+    height: 200px;
+}
+
+#workout_summary {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
