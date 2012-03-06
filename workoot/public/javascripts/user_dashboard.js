@@ -10,5 +10,6 @@ $(document).ready(function () {
     $('#calendar').fullCalendar({
         events: 'https://www.google.com/calendar/feeds/e7mroepihsenprdhvt2q97nk40%40group.calendar.google.com/public/basic'
     })
+    $('#workout_tabs').tabs();
     
 });

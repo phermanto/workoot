@@ -5,6 +5,20 @@ p Welcome #{user}!
         #user_workouts
             #workout_today.title Today's Workout
             #workout_past.title Past Workouts
-        #workout_summary workout future!
+        #workout_summary Your Workout Calendar
             #calendar
     #workout_strangers.title People with Similar Workout Plans
+        #workout_tabs
+            ul
+                li
+                    a(href="#tabs1") By Location
+                li 
+                    a(href="#tabs2") By Workout
+                li 
+                    a(href="#tabs3") By Goal
+            #tabs1 
+                .text This tab will show strangers with similiar activity mainly by location. A map should show up here!!
+                .map
+                    iframe(width="800",height="350",frameborder="0",scroling="no",marginheight="0",marginwidth="0",src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=28+Fort+Greene+Place,+New+York,+NY&amp;aq=0&amp;oq=28+fort+gree&amp;sll=37.0625,-95.677068&amp;sspn=37.136668,70.048828&amp;ie=UTF8&amp;hq=&amp;hnear=28+Fort+Greene+Pl,+Brooklyn,+Kings,+New+York+11217&amp;t=m&amp;z=14&amp;ll=40.688931,-73.97721&amp;output=embed")
+            #tabs2 This tab will show strangers by workout
+            #tabs3 This tab will show stranger by similiar goals
